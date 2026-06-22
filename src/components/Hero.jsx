@@ -19,12 +19,22 @@ export default function Hero() {
         <p className="mt-2 text-base opacity-90 md:text-lg">
           Use waiting time actively!
         </p>
-        <a
-          href="#about"
-          className="mt-8 inline-block rounded-full bg-teal-brand px-8 py-3 font-semibold text-white transition hover:bg-teal-dark"
-        >
-          Learn More
-        </a>
+        <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+          <a
+            href="#about"
+            className="inline-block rounded-full bg-teal-brand px-8 py-3 font-semibold text-white transition hover:bg-teal-dark"
+          >
+            Learn More
+          </a>
+          <a
+            href="https://activewaiting.at"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full border-2 border-white px-8 py-3 font-semibold text-white transition hover:bg-white hover:text-black"
+          >
+            Try the App
+          </a>
+        </div>
       </div>
     </section>
   )

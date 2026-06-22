@@ -16,7 +16,7 @@ export default function GenAI() {
           {['ai1.png', 'ai2.png', 'ai3.png'].map((img, i) => (
             <div key={img} className="relative">
               <img
-                src={`/${img}`}
+                src={`${import.meta.env.BASE_URL}${img}`}
                 alt={`AI feature step ${i + 1}`}
                 className="mx-auto max-h-[500px] rounded-2xl shadow-lg"
               />

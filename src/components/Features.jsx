@@ -59,7 +59,7 @@ export default function Features() {
           {['gen1.png', 'gen2.png', 'gen3.png', 'gen4.png'].map((img) => (
             <img
               key={img}
-              src={`/${img}`}
+              src={`${import.meta.env.BASE_URL}${img}`}
               alt="Active Waiting app screenshot"
               className="rounded-2xl shadow-lg"
             />

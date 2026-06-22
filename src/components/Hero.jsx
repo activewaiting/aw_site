@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="relative mt-16 flex min-h-[70vh] items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/header.png"
+          src={`${import.meta.env.BASE_URL}header.png`}
           alt="Person using Active Waiting app on phone"
           className="h-full w-full object-cover"
         />

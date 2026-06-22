@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 py-10 text-gray-400">
       <div className="mx-auto max-w-6xl px-6 text-center">
-        <img src="/awlogo.png" alt="Active Waiting" className="mx-auto h-12 w-12 rounded-lg" />
+        <img src={`${import.meta.env.BASE_URL}awlogo.png`} alt="Active Waiting" className="mx-auto h-12 w-12 rounded-lg" />
         <p className="mt-4 text-sm">
           Developed at the Ludwig Boltzmann Institute for Digital Health and Prevention.
         </p>

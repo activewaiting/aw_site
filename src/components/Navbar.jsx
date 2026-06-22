@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="fixed top-0 z-50 w-full bg-white/90 shadow-sm backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2">
-          <img src="/awlogo.png" alt="Active Waiting" className="h-10 w-10 rounded-lg" />
+          <img src={`${import.meta.env.BASE_URL}awlogo.png`} alt="Active Waiting" className="h-10 w-10 rounded-lg" />
           <span className="text-xl font-bold text-teal-brand">Active Waiting</span>
         </a>
 

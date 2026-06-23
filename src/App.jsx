@@ -4,6 +4,9 @@ import About from './components/About'
 import Features from './components/Features'
 import GenAI from './components/GenAI'
 import Background from './components/Background'
+import Benefits from './components/Benefits'
+import NextSteps from './components/NextSteps'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -15,6 +18,9 @@ export default function App() {
       <Features />
       <GenAI />
       <Background />
+      <Benefits />
+      <NextSteps />
+      <Contact />
       <Footer />
     </div>
   )

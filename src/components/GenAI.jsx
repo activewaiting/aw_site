@@ -2,8 +2,8 @@ export default function GenAI() {
   return (
     <section id="genai" className="py-20">
       <div className="mx-auto max-w-6xl px-6">
-        <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">GenAI Integration</h2>
-        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-600">
+        <h2 className="text-center text-3xl font-bold text-gray-900 md:text-4xl">GenAI Integration</h2>
+        <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
           Active Waiting also has an innovative GenAI feature that makes the app even easier to integrate
           into daily routines. Users can take a photo of their immediate environment, which will then be
           analysed by the AI to determine what features are present. The AI will then recommend specific

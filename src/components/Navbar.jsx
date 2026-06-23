@@ -4,7 +4,9 @@ const links = [
   { label: 'About', href: '#about' },
   { label: 'Features', href: '#features' },
   { label: 'AI Integration', href: '#genai' },
-  { label: 'Background', href: '#background' },
+  { label: 'Research', href: '#background' },
+  { label: 'Benefits', href: '#benefits' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export default function Navbar() {

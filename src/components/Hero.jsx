@@ -27,7 +27,7 @@ export default function Hero() {
             Learn More
           </a>
           <a
-            href="https://activewaiting.at"
+            href="https://app.activewaiting.at"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-full border-2 border-white px-8 py-3 font-semibold text-white transition hover:bg-white hover:text-black"

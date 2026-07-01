@@ -9,6 +9,24 @@ export default function Footer() {
         <p className="mt-2 text-xs text-gray-500">
           &copy; {new Date().getFullYear()} Active Waiting. All rights reserved.
         </p>
+        <nav className="mt-4 flex justify-center gap-6 text-sm">
+          <a
+            href="https://resources.lbidhp.at/heroways/legal-notice.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-white"
+          >
+            Impressum
+          </a>
+          <a
+            href="https://resources.lbidhp.at/heroways/privacy-policy.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-white"
+          >
+            Privacy Policy
+          </a>
+        </nav>
       </div>
     </footer>
   )

@@ -28,7 +28,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="mailto:faith.young@lbg.ac.at"
+            href="mailto:faith.young@stud.plus.ac.at"
             className="group flex items-start gap-4 rounded-2xl bg-teal-light p-6 transition hover:shadow-md"
           >
             <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-white text-teal-brand shadow-sm">
@@ -38,7 +38,7 @@ export default function Contact() {
             </div>
             <div>
               <div className="font-semibold text-gray-900">Email</div>
-              <div className="mt-1 text-gray-600 group-hover:text-teal-brand">faith.young@lbg.ac.at</div>
+              <div className="mt-1 text-gray-600 group-hover:text-teal-brand">faith.young@stud.plus.ac.at</div>
             </div>
           </a>
         </div>
